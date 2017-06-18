@@ -1,0 +1,40 @@
+{
+  "name": "draf",
+  "version": "0.0.0",
+  "description": "double requestAnimationFrame",
+  "author": "Ryan Van Etten",
+  "license": "ISC",
+  "main": "draf.js",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "preversion": "npm run lint",
+    "pretest": "npm run lint",
+    "test": "open-cli index.html"
+  },
+  "homepage": "https://github.com/ryanve/draf",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/draf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanve/draf/issues"
+  },
+  "keywords": [
+    "ui",
+    "ux",
+    "raf",
+    "jank",
+    "frame",
+    "thread",
+    "browser",
+    "reactive",
+    "animation",
+    "javascript",
+    "performance",
+    "requestAnimationFrame"
+  ],
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "open-cli": "^1.0.5"
+  }
+}
