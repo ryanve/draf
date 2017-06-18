@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US" class="scheme-1">
+<meta charset="utf-8">
+<title>draf: double requestAnimationFrame</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="double RAF JavaScript module">
+<link rel="stylesheet" href="https://unpkg.com/spacing@0.1.0">
+<style>
+html { font: 1em/2 sans-serif }
+html { font-size: calc(.9em + .5vw + .5vh) }
+body { margin: 0 auto; padding: 1rem }
+code { font-family: inherit; display: inline-block }
+* { box-sizing: border-box }
+.line-compact { line-height: 1.3333 }
+:focus { outline: 3px dotted Black }
+:link { text-decoration-skip: ink }
+:link, :visited { color: inherit }
+.scheme-1 { background: #ccc; color: Black }
+.scheme-2 { background: #ccc; color: Black }
+.scheme-3 { background: Gold; color: Black }
+.scheme-4 { background: MediumSpringGreen; color: Black }
+.inline-block { display: inline-block }
+.block { display: block }
+.natural { display: table }
+.button {
+  display: inline-block;
+  border: 0;
+  padding: 2rem 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  text-align: left;
+}
+.button::-moz-focus-inner { border-style: none; padding: 0 }
+.button:enabled { cursor: pointer }
+.zoomable {
+  transition: transform 450ms;
+  transform: scale(1);
+}
+.zoomed { transform: scale(.625) }
+</style>
+
+<header class="natural m0 mb2 p2 scheme-2">
+  <h1 class="block m0 line-compact"><a href="" class="inline-block scheme-2">draf</a></h1>
+  <a class="inline-block scheme-2 mr1" href="https://github.com/ryanve/draf">github</a>
+  <a class="inline-block scheme-2 mr1" href="https://www.npmjs.com/package/draf">npm</a>
+  <a class="inline-block scheme-2 mr1" href="https://unpkg.com/draf@latest">unpkg</a>
+</header>
+
+<figure class="m-auto mb1">
+  <button class="button zoomable scheme-4 mr1 mb1" data-click="reactive" autofocus>Press for reactive motion</button>
+  <button class="button zoomable scheme-3 mr1 mb1" data-click="janky">Press for janky motion</button>
+</figure>
+
+<script src="draf.js"></script>
+<script src="test.js"></script>
