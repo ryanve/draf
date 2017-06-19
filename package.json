@@ -1,6 +1,6 @@
 {
   "name": "draf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "double requestAnimationFrame",
   "author": "Ryan Van Etten",
   "license": "ISC",
