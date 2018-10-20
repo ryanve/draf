@@ -5,6 +5,7 @@
   "author": "Ryan Van Etten",
   "license": "ISC",
   "main": "draf.js",
+  "types": "draf.d.ts",
   "scripts": {
     "lint": "eslint . --ext .js",
     "preversion": "npm run lint",
